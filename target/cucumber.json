@@ -1,0 +1,398 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8289842808,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the successful registration on Miro",
+        "description": "",
+        "id": "sign-up-on-miro;verify-the-successful-registration-on-miro",
+        "after": [
+          {
+            "result": {
+              "duration": 607654107,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 215069585,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Signup page of the miro application",
+            "match": {
+              "location": "SignupPageSteps.verify_user_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271883265,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User sign up with  correct name email and password",
+            "match": {
+              "location": "SignupPageSteps.user_sign_up_with_correct_name_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274620240,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects terms and privacy",
+            "match": {
+              "location": "SignupPageSteps.selectTnC()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 257407052,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selects agree to receive miro news and update",
+            "match": {
+              "location": "SignupPageSteps.selectPromo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146652922,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on get started now for signup",
+            "match": {
+              "location": "SignupPageSteps.user_click_on_get_started_now_for_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76417023,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verify the authentication code screen for success",
+            "match": {
+              "location": "SuccessPageSteps.user_verify_the_authentication_code_screen_for_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7048454350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify the negative test on Miro signup",
+        "description": "",
+        "id": "sign-up-on-miro;verify-the-negative-test-on-miro-signup;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 602994318,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67360785,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Signup page of the miro application",
+            "match": {
+              "location": "SignupPageSteps.verify_user_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286371141,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sign up with \"miro\" \"123@mail@mail.com\" and \"enter_password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "miro",
+                  "offset": 19
+                },
+                {
+                  "val": "123@mail@mail.com",
+                  "offset": 26
+                },
+                {
+                  "val": "enter_password123",
+                  "offset": 50
+                }
+              ],
+              "location": "SignupPageSteps.user_sign_up_with_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256092271,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User selects terms and privacy",
+            "match": {
+              "location": "SignupPageSteps.selectTnC()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 251451912,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User selects agree to receive miro news and update",
+            "match": {
+              "location": "SignupPageSteps.selectPromo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2840703191,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on get started now for signup",
+            "match": {
+              "location": "SignupPageSteps.user_click_on_get_started_now_for_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57481018,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verify the \"This doesn’t look like an email address. Please check it for typos and try again.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This doesn’t look like an email address. Please check it for typos and try again.",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupPageSteps.verifyErrorMessage(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@qTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6893346700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify the negative test on Miro signup",
+        "description": "",
+        "id": "sign-up-on-miro;verify-the-negative-test-on-miro-signup;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 610371740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 74247534,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Signup page of the miro application",
+            "match": {
+              "location": "SignupPageSteps.verify_user_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269360015,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sign up with \"1232\" \"abc@gmail.com\" and \"entewewe123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1232",
+                  "offset": 19
+                },
+                {
+                  "val": "abc@gmail.com",
+                  "offset": 26
+                },
+                {
+                  "val": "entewewe123",
+                  "offset": 46
+                }
+              ],
+              "location": "SignupPageSteps.user_sign_up_with_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273207360,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User selects terms and privacy",
+            "match": {
+              "location": "SignupPageSteps.selectTnC()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253660339,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User selects agree to receive miro news and update",
+            "match": {
+              "location": "SignupPageSteps.selectPromo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3455848269,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on get started now for signup",
+            "match": {
+              "location": "SignupPageSteps.user_click_on_get_started_now_for_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53817296,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verify the \"Sorry, this email is already registered\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sorry, this email is already registered",
+                  "offset": 17
+                }
+              ],
+              "location": "SignupPageSteps.verifyErrorMessage(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@qTest"
+          }
+        ]
+      }
+    ],
+    "name": "Sign up on Miro",
+    "description": "",
+    "id": "sign-up-on-miro",
+    "keyword": "Feature",
+    "uri": "miroSignUp.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@qTest"
+      }
+    ]
+  }
+]

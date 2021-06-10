@@ -8,10 +8,6 @@ import static com.automation.utils.DriverUtils.getDriver;
 import static com.automation.utils.WebElementUtils.waitForVisible;
 
 public class CommonUtils {
-    public void scrollDown() {
-        JavascriptExecutor js = (JavascriptExecutor) getDriver();
-        js.executeScript("window.scrollBy(0,250)");
-    }
 
     public static void clickOnElement(WebElement element) {
         waitForVisible(element);

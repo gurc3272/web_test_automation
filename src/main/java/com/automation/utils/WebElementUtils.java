@@ -26,13 +26,6 @@ public class WebElementUtils {
         }
     }
 
-    public static void waitForNotVisible(WebElement element) {
-        try {
-            wait.until(ExpectedConditions.invisibilityOf(element));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     public static void waitForElementToBeClickable(WebElement element) {
         try {

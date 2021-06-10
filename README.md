@@ -1,15 +1,20 @@
-# cucumberPOM
+# MiroTestAutomation
 
-cucumberPOM is a behavior driven development (BDD) approach to write automation test script to test Web. It enables you to write and execute automated acceptance/unit tests. It is cross-platform, open source and free. Automate your test cases with minimal coding.
+Web Automation Testing Using Java, Selenium, Cucumber, BDD and Allure reports
 
+WebTestAutomation is a behavior driven development (BDD) approach to write automation test script to test Web application with minimal coding on multi-browser & cross platform
+The framework supports reporting with Allure reports & Cucumber reports
 # Tools
 
-1) Java 11
+1) Java 8 or above
 2) Maven
 3) BDD
 4) Cucumber
 5) PageObjectModel [POM]
-6) ChromeDriver - 89.0.4389.23
+6) ChromeDriver - 90.0.4430.24
+
+# Installing
+Clone the repo to get a working project
 
 # Writing a test
 
@@ -20,16 +25,23 @@ The cucumber features goes in the features library and should have the ".feature
 1) Set the tags in the TestRunner file.
 For eg: tags = "@qTest"
 
-2) Go to your project directory from terminal and hit following commands
-mvn clean test
+2) Go to your project directory from terminal and hit following commands to run on different browser
+cd to project path
+
+ mvn clean test -Dbrowser=firefox
+
+or 
+
+ mvn clean test -Dbrowser=chrome
+
+# Built With
+Selenium - The web framework to automate browsers
+Maven - Dependency Management
+Cucumber - Behavior Driven Development (BDD) library
+Allure + Cucumber reports - Reporting
 
 # Run Report
-
-Report Part1:
-<img width="1450" alt="Screenshot 2021-04-12 at 00 53 23" src="https://user-images.githubusercontent.com/78545575/114325836-fe755980-9b29-11eb-9690-e6b0991df466.png">
-
-Report Part2:
-<img width="1546" alt="Screenshot 2021-04-12 at 00 52 47" src="https://user-images.githubusercontent.com/78545575/114325831-fa493c00-9b29-11eb-8bff-71f77e65e3ba.png">
+Summary Report:
 
 Complete Report:
-![localhost_63342_cucumberPOM_target_cucumber-reporting-html_cucumber-html-reports_qTest html__ijt=5sl1t2opbc2ks3rn1vs8qt1qkq](https://user-images.githubusercontent.com/78545575/114325910-514f1100-9b2a-11eb-86fb-8ad3f6901031.png)
+http://localhost:63342/MiroTestAutomation/QTestAutomation/target/cucumber-reporting-html/cucumber-html-reports/miroSignUp-feature.html?_ijt=ns09occl52s3o75qgrvhcnlu57

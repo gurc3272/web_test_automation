@@ -2,6 +2,7 @@ package com.automation.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static com.automation.utils.ConfigUtils.getPropertyByKey;
 import static com.automation.utils.ConfigUtils.loadProperties;
@@ -12,8 +13,15 @@ public class DriverUtils {
 
     public static void initDriver() {
         loadProperties();
-        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
-        driver = new ChromeDriver();
+        String browserName = System.getProperty("browser");
+        if (browserName.equals("firefox")) {
+            System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver");
+            driver = new FirefoxDriver();
+        }else{
+            System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
+            driver = new ChromeDriver();
+        }
+
         driver.manage().window().maximize();
         driver.get(getPropertyByKey("application.url"));
     }
