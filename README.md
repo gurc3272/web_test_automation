@@ -43,6 +43,7 @@ Allure + Cucumber reports - Reporting
 
 # Run Report
 Summary Report:
+http://localhost:63342/MiroTestAutomation/QTestAutomation/target/cucumber-reporting-html/cucumber-html-reports/feature-overview.html?_ijt=5qvo7gbf1m32mc5mp6usecqqh8
 
 Complete Report:
 http://localhost:63342/MiroTestAutomation/QTestAutomation/target/cucumber-reporting-html/cucumber-html-reports/miroSignUp-feature.html?_ijt=ns09occl52s3o75qgrvhcnlu57
