@@ -22,7 +22,6 @@ public class AssertionUtils {
 
     public static void assertEquals(WebElement element, String expected) {
         waitForVisible(element);
-        System.out.println("actual text-------------------------"+element.getText());
         Assert.assertTrue(String.format("Actual text is %s and expected text is %s", element.getText(), expected), element.getText().contains(expected));
     }
 

@@ -9,7 +9,6 @@ import static com.automation.utils.AssertionUtils.assertEquals;
 import static com.automation.utils.AssertionUtils.assertPresent;
 import static com.automation.utils.CommonUtils.clickOnElement;
 import static com.automation.utils.CommonUtils.sendKeysTo;
-import static com.automation.utils.ConfigUtils.getPropertyByKey;
 import static com.automation.utils.DriverUtils.getDriver;
 
 public class SignupPage {

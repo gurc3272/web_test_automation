@@ -4,17 +4,17 @@ Feature: Sign up on Miro
   Scenario: Verify the successful registration on Miro
     Given User is on Signup page of the miro application
     When User sign up with  correct name email and password
-    When User selects terms and privacy
+    And User selects terms and privacy
     And User selects agree to receive miro news and update
-    When User click on get started now for signup
+    And User click on get started now for signup
     Then User verify the authentication code screen for success
 
   Scenario Outline: Verify the negative test on Miro signup
     Given User is on Signup page of the miro application
     When User sign up with "<name>" "<emailId>" and "<password>"
-    When User selects terms and privacy
+    And User selects terms and privacy
     And User selects agree to receive miro news and update
-    When User click on get started now for signup
+    And User click on get started now for signup
     Then User verify the "<error_message>"
     Examples:
       | name | emailId           | password          | error_message                                                                     |

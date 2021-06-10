@@ -1,10 +1,7 @@
 package com.automation.utils;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-import static com.automation.utils.DriverUtils.driver;
-import static com.automation.utils.DriverUtils.getDriver;
 import static com.automation.utils.WebElementUtils.waitForVisible;
 
 public class CommonUtils {

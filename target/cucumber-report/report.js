@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 8289842808,
+  "duration": 7276181507,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,7 +37,7 @@ formatter.step({
 formatter.step({
   "line": 7,
   "name": "User selects terms and privacy",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
@@ -47,7 +47,7 @@ formatter.step({
 formatter.step({
   "line": 9,
   "name": "User click on get started now for signup",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 10,
@@ -58,46 +58,46 @@ formatter.match({
   "location": "SignupPageSteps.verify_user_on_signup_page()"
 });
 formatter.result({
-  "duration": 215069585,
+  "duration": 183454822,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.user_sign_up_with_correct_name_email_and_password()"
 });
 formatter.result({
-  "duration": 271883265,
+  "duration": 240520962,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.selectTnC()"
 });
 formatter.result({
-  "duration": 274620240,
+  "duration": 276653382,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.selectPromo()"
 });
 formatter.result({
-  "duration": 257407052,
+  "duration": 250080193,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.user_click_on_get_started_now_for_signup()"
 });
 formatter.result({
-  "duration": 2146652922,
+  "duration": 2396575089,
   "status": "passed"
 });
 formatter.match({
   "location": "SuccessPageSteps.user_verify_the_authentication_code_screen_for_success()"
 });
 formatter.result({
-  "duration": 76417023,
+  "duration": 71493844,
   "status": "passed"
 });
 formatter.after({
-  "duration": 607654107,
+  "duration": 704532732,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -121,7 +121,7 @@ formatter.step({
 formatter.step({
   "line": 15,
   "name": "User selects terms and privacy",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 16,
@@ -131,7 +131,7 @@ formatter.step({
 formatter.step({
   "line": 17,
   "name": "User click on get started now for signup",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 18,
@@ -178,7 +178,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 7048454350,
+  "duration": 7101984856,
   "status": "passed"
 });
 formatter.scenario({
@@ -213,7 +213,7 @@ formatter.step({
 formatter.step({
   "line": 15,
   "name": "User selects terms and privacy",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 16,
@@ -223,7 +223,7 @@ formatter.step({
 formatter.step({
   "line": 17,
   "name": "User click on get started now for signup",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 18,
@@ -237,7 +237,7 @@ formatter.match({
   "location": "SignupPageSteps.verify_user_on_signup_page()"
 });
 formatter.result({
-  "duration": 67360785,
+  "duration": 80939139,
   "status": "passed"
 });
 formatter.match({
@@ -258,28 +258,28 @@ formatter.match({
   "location": "SignupPageSteps.user_sign_up_with_and(String,String,String)"
 });
 formatter.result({
-  "duration": 286371141,
+  "duration": 277408011,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.selectTnC()"
 });
 formatter.result({
-  "duration": 256092271,
+  "duration": 265946323,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.selectPromo()"
 });
 formatter.result({
-  "duration": 251451912,
+  "duration": 249699047,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.user_click_on_get_started_now_for_signup()"
 });
 formatter.result({
-  "duration": 2840703191,
+  "duration": 3576010528,
   "status": "passed"
 });
 formatter.match({
@@ -292,15 +292,15 @@ formatter.match({
   "location": "SignupPageSteps.verifyErrorMessage(String)"
 });
 formatter.result({
-  "duration": 57481018,
+  "duration": 38042045,
   "status": "passed"
 });
 formatter.after({
-  "duration": 602994318,
+  "duration": 598270386,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6893346700,
+  "duration": 7096236542,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,7 +335,7 @@ formatter.step({
 formatter.step({
   "line": 15,
   "name": "User selects terms and privacy",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 16,
@@ -345,7 +345,7 @@ formatter.step({
 formatter.step({
   "line": 17,
   "name": "User click on get started now for signup",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 18,
@@ -359,7 +359,7 @@ formatter.match({
   "location": "SignupPageSteps.verify_user_on_signup_page()"
 });
 formatter.result({
-  "duration": 74247534,
+  "duration": 74349946,
   "status": "passed"
 });
 formatter.match({
@@ -380,28 +380,28 @@ formatter.match({
   "location": "SignupPageSteps.user_sign_up_with_and(String,String,String)"
 });
 formatter.result({
-  "duration": 269360015,
+  "duration": 252004929,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.selectTnC()"
 });
 formatter.result({
-  "duration": 273207360,
+  "duration": 262659324,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.selectPromo()"
 });
 formatter.result({
-  "duration": 253660339,
+  "duration": 250201142,
   "status": "passed"
 });
 formatter.match({
   "location": "SignupPageSteps.user_click_on_get_started_now_for_signup()"
 });
 formatter.result({
-  "duration": 3455848269,
+  "duration": 3118773302,
   "status": "passed"
 });
 formatter.match({
@@ -414,11 +414,11 @@ formatter.match({
   "location": "SignupPageSteps.verifyErrorMessage(String)"
 });
 formatter.result({
-  "duration": 53817296,
+  "duration": 34188665,
   "status": "passed"
 });
 formatter.after({
-  "duration": 610371740,
+  "duration": 613351655,
   "status": "passed"
 });
 });

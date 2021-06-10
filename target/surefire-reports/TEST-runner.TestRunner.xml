@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="35.521" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="35.365" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
@@ -63,23 +63,23 @@
   </properties>
   <testcase name="Given User is on Signup page of the miro application" classname="Scenario: Verify the successful registration on Miro" time="0.001"/>
   <testcase name="When User sign up with  correct name email and password" classname="Scenario: Verify the successful registration on Miro" time="0"/>
-  <testcase name="When User selects terms and privacy" classname="Scenario: Verify the successful registration on Miro" time="0"/>
+  <testcase name="And User selects terms and privacy" classname="Scenario: Verify the successful registration on Miro" time="0"/>
   <testcase name="And User selects agree to receive miro news and update" classname="Scenario: Verify the successful registration on Miro" time="0"/>
-  <testcase name="When User click on get started now for signup" classname="Scenario: Verify the successful registration on Miro" time="0"/>
+  <testcase name="And User click on get started now for signup" classname="Scenario: Verify the successful registration on Miro" time="0"/>
   <testcase name="Then User verify the authentication code screen for success" classname="Scenario: Verify the successful registration on Miro" time="0"/>
-  <testcase name="Scenario: Verify the successful registration on Miro" classname="Scenario: Verify the successful registration on Miro" time="0.609"/>
+  <testcase name="Scenario: Verify the successful registration on Miro" classname="Scenario: Verify the successful registration on Miro" time="0.706"/>
   <testcase name="Given User is on Signup page of the miro application" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
   <testcase name="When User sign up with &quot;miro&quot; &quot;123@mail@mail.com&quot; and &quot;enter_password123&quot;" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
-  <testcase name="When User selects terms and privacy" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
+  <testcase name="And User selects terms and privacy" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
   <testcase name="And User selects agree to receive miro news and update" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
-  <testcase name="When User click on get started now for signup" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
+  <testcase name="And User click on get started now for signup" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
   <testcase name="Then User verify the &quot;This doesn’t look like an email address. Please check it for typos and try again.&quot;" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0"/>
-  <testcase name="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0.604"/>
+  <testcase name="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" classname="| miro | 123@mail@mail.com | enter_password123 | This doesn’t look like an email address. Please check it for typos and try again. |" time="0.599"/>
   <testcase name="Given User is on Signup page of the miro application" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
   <testcase name="When User sign up with &quot;1232&quot; &quot;abc@gmail.com&quot; and &quot;entewewe123&quot;" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
-  <testcase name="When User selects terms and privacy" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
+  <testcase name="And User selects terms and privacy" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
   <testcase name="And User selects agree to receive miro news and update" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
-  <testcase name="When User click on get started now for signup" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
+  <testcase name="And User click on get started now for signup" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
   <testcase name="Then User verify the &quot;Sorry, this email is already registered&quot;" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0"/>
-  <testcase name="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0.611"/>
+  <testcase name="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" classname="| 1232 | abc@gmail.com | entewewe123 | Sorry, this email is already registered |" time="0.615"/>
 </testsuite>
