@@ -12,6 +12,7 @@ The framework supports reporting with Allure reports & Cucumber reports
 4) Cucumber
 5) PageObjectModel [POM]
 6) ChromeDriver - 90.0.4430.24
+7) Jenkins
 
 # Installing
 Clone the repo to get a working project
